@@ -16,7 +16,7 @@ spec:
       containers:
         - name: mysql-go-operator
           # Replace this with the built image name
-          image: REPLACE_IMAGE
+          image: quay.io/kajolasabe/mysql-go-operator:v0.0.1
           command:
           - mysql-go-operator
           imagePullPolicy: Always
