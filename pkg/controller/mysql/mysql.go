@@ -87,7 +87,7 @@ func (r *ReconcileMySQL) mysqlDeployment(v *mysqlv1alpha1.MySQL) *appsv1.Deploym
 						VolumeMounts: []corev1.VolumeMount{
 							{
 								Name:      pvStorageName,
-								MountPath: "/var/lib/mysql",
+								MountPath: "mnt/data",
 							},
 						},
 						Env: []corev1.EnvVar{
