@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"github.com/persistentsys/mysql-go-operator/pkg/apis/mysql/v1alpha1"
+	"persistent.com/mysql/mysql-go-operator/pkg/apis/mysql/v1alpha1"
 )
 
 func Labels(v *v1alpha1.MySQL, tier string) map[string]string {
