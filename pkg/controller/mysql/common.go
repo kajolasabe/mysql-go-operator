@@ -3,7 +3,7 @@ package mysql
 import (
 	"context"
 
-	mysqlv1alpha1 "github.com/persistentsys/mysql-go-operator/pkg/apis/mysql/v1alpha1"
+	mysqlv1alpha1 "persistent.com/mysql/mysql-go-operator/pkg/apis/mysql/v1alpha1"
 	"github.com/persistentsys/mysql-go-operator/pkg/resource"
 	"github.com/persistentsys/mysql-go-operator/pkg/service"
 
