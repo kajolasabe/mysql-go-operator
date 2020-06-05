@@ -3,9 +3,9 @@ package mysql
 import (
 	"context"
 
-	mysqlv1alpha1 "github.com/persistentsys/mysql-go-operator/pkg/apis/mysql/v1alpha1"
-	"github.com/persistentsys/mysql-go-operator/pkg/resource"
-	"github.com/persistentsys/mysql-go-operator/pkg/service"
+	mysqlv1alpha1 "persistent.com/mysql/mysql-go-operator/pkg/apis/mysql/v1alpha1"
+	"persistent.com/mysql/mysql-go-operator/pkg/resource"
+	"persistent.com/mysql/mysql-go-operator/pkg/service"
 
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
